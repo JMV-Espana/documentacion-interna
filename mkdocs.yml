@@ -1,7 +1,7 @@
 site_name: JMV España — Documentación
 site_url: https://intranet.jmvesp.org
 repo_url: https://github.com/JMV-Espana/documentacion-interna
-repo_name: documentacion-publica
+repo_name: documentacion-interna
 
 theme:
   name: material
@@ -16,6 +16,7 @@ theme:
 
 plugins:
   - search
+  - awesome-nav
 
 nav:
   - Inicio: index.md
