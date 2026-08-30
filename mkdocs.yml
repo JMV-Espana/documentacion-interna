@@ -1,0 +1,22 @@
+site_name: JMV España — Documentación
+site_url: https://intranet.jmvesp.org
+repo_url: https://github.com/JMV-Espana/documentacion-interna
+repo_name: documentacion-publica
+
+theme:
+  name: material
+  language: es
+  palette:
+    primary: indigo
+  features:
+    - navigation.tabs
+    - navigation.top
+    - search.suggest
+    - content.action.edit   # añade un lápiz "Editar esta página" que lleva directo al editor de GitHub
+
+plugins:
+  - search
+
+nav:
+  - Inicio: index.md
+  - Prueba: prueba.md
